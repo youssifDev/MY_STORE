@@ -7,6 +7,48 @@
     text-align: left;
     text-decoration: underline;
 }
+.logoHeader{
+  background-image: url("freeGo.png");
+
+  min-height: 1000px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+.text{
+  font-size: 30px;
+}
+.btn{
+  width: 20%;
+  margin-left: 60%;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  position: relative;
+  bottom: 300px;
+  justify-content: center;
+  padding: 30px;
+  background-color: rgb(10, 27, 83);
+
+}
+a{ text-decoration: none;}
+
+.i{
+  height: 500px;
+}
+.desc{
+  text-align: left;
+  font-size: 20px;
+}
+.freeGoLogo{
+  width: 40%;
+  height: 30%;
+}
 .topnav {
     background-color: #333;
     overflow: hidden;
